@@ -6,7 +6,7 @@ interface FeedbackData {
   source: string;
 }
 
-const WEBHOOK_URL = 'https://auto.iws-kruza.de/webhook/aa064f85-5744-441a-be96-e0ebaf2a7f53';
+const WEBHOOK_URL = 'https://auto.iws-kruza.de/webhook-test/aa064f85-5744-441a-be96-e0ebaf2a7f53';
 
 export const submitFeedback = async (rating: number, comment: string): Promise<void> => {
   const feedbackData: FeedbackData = {
